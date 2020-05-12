@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Unpause.wav-ce57cd1498ad53c95c10ac3944d733fb.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/Unpause.wav"
+dest_files=[ "res://.import/Unpause.wav-ce57cd1498ad53c95c10ac3944d733fb.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

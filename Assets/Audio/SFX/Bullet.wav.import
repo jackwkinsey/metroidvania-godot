@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Bullet.wav-9093f7d48278e3b576f3b0c891ee1333.sample"
+
+[deps]
+
+source_file="res://Assets/Audio/SFX/Bullet.wav"
+dest_files=[ "res://.import/Bullet.wav-9093f7d48278e3b576f3b0c891ee1333.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
