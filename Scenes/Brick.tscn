@@ -11,6 +11,6 @@ extents = Vector2( 8, 8 )
 texture = ExtResource( 1 )
 centered = false
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2( 8, 8 )
 shape = SubResource( 1 )
