@@ -12,9 +12,9 @@ var motion = Vector2.ZERO
 func _physics_process(delta):
 	var input_vector = get_input_vector()
 	apply_horizontal_motion(input_vector, delta)
+	jump_check()
 	apply_gravity(delta)
 	motion = move_and_slide(motion, Vector2.UP)
-	jump_check()
 
 func get_input_vector():
 	var input_vector = Vector2.ZERO
