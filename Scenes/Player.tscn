@@ -82,7 +82,6 @@ JUMP_FORCE = 200
 position = Vector2( 0, -12 )
 texture = ExtResource( 1 )
 hframes = 12
-frame = 7
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 position = Vector2( 0, -7 )
@@ -93,3 +92,8 @@ anims/Fall = SubResource( 5 )
 anims/Idle = SubResource( 2 )
 anims/Jump = SubResource( 4 )
 anims/Run = SubResource( 3 )
+
+[node name="CameraFollow" type="RemoteTransform2D" parent="."]
+position = Vector2( 0, -7 )
+update_rotation = false
+update_scale = false
